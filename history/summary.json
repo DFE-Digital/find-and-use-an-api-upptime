@@ -112,9 +112,9 @@
     "url": "https://dev-find-and-use-an-api.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/dev-find-and-use-an-api.education.gov.uk.ico",
     "slug": "find-and-use-an-api-consumption-portal-dev",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -123,7 +123,9 @@
     "timeWeek": 578,
     "timeMonth": 663,
     "timeYear": 660,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-23": 0
+    }
   },
   {
     "name": "Find and Use an API Management Portal - DEV",
