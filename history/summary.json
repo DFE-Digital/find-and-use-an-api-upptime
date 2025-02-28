@@ -130,17 +130,19 @@
     "url": "https://dev-apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/dev-apimanagement.education.gov.uk.ico",
     "slug": "find-and-use-an-api-management-portal-dev",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 637,
-    "timeDay": 639,
-    "timeWeek": 599,
-    "timeMonth": 618,
-    "timeYear": 637,
-    "dailyMinutesDown": {}
+    "time": 633,
+    "timeDay": 553,
+    "timeWeek": 583,
+    "timeMonth": 613,
+    "timeYear": 633,
+    "dailyMinutesDown": {
+      "2025-02-28": 0
+    }
   }
 ]
