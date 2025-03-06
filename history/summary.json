@@ -40,18 +40,20 @@
     "url": "https://pp-find-and-use-an-api.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/pp-find-and-use-an-api.education.gov.uk.ico",
     "slug": "find-and-use-an-api-consumption-portal-pre-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 690,
-    "timeDay": 595,
-    "timeWeek": 677,
-    "timeMonth": 682,
-    "timeYear": 690,
-    "dailyMinutesDown": {}
+    "time": 694,
+    "timeDay": 717,
+    "timeWeek": 697,
+    "timeMonth": 688,
+    "timeYear": 694,
+    "dailyMinutesDown": {
+      "2025-03-06": 0
+    }
   },
   {
     "name": "Find and Use an API Management Portal - PRE-PROD",
