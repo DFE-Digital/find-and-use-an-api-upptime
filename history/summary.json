@@ -1,6 +1,6 @@
 [
   {
-    "name": "Find and Use an API Consumption Portal - PROD",
+    "name": "Consumption Portal - PROD",
     "url": "https://beta-find-and-use-an-api.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/beta-find-and-use-an-api.education.gov.uk.ico",
     "slug": "find-and-use-an-api-consumption-portal-prod",
@@ -18,7 +18,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Find and Use an API Management Portal - PROD",
+    "name": "Management Portal - PROD",
     "url": "https://apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/apimanagement.education.gov.uk.ico",
     "slug": "find-and-use-an-api-management-portal-prod",
@@ -36,7 +36,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Find and Use an API Consumption Portal - PRE-PROD",
+    "name": "Consumption Portal - PRE-PROD",
     "url": "https://pp-find-and-use-an-api.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/pp-find-and-use-an-api.education.gov.uk.ico",
     "slug": "find-and-use-an-api-consumption-portal-pre-prod",
@@ -54,7 +54,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Find and Use an API Management Portal - PRE-PROD",
+    "name": "Management Portal - PRE-PROD",
     "url": "https://pp-apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/pp-apimanagement.education.gov.uk.ico",
     "slug": "find-and-use-an-api-management-portal-pre-prod",
@@ -72,7 +72,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Find and Use an API Consumption Portal - TEST",
+    "name": "Consumption Portal - TEST",
     "url": "https://test-find-and-use-an-api.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/test-find-and-use-an-api.education.gov.uk.ico",
     "slug": "find-and-use-an-api-consumption-portal-test",
@@ -90,7 +90,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Find and Use an API Management Portal - TEST",
+    "name": "Management Portal - TEST",
     "url": "https://test-apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/test-apimanagement.education.gov.uk.ico",
     "slug": "find-and-use-an-api-management-portal-test",
@@ -108,7 +108,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Find and Use an API Consumption Portal - DEV",
+    "name": "Consumption Portal - DEV",
     "url": "https://dev-find-and-use-an-api.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/dev-find-and-use-an-api.education.gov.uk.ico",
     "slug": "find-and-use-an-api-consumption-portal-dev",
@@ -126,7 +126,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Find and Use an API Management Portal - DEV",
+    "name": "Management Portal - DEV",
     "url": "https://dev-apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/dev-apimanagement.education.gov.uk.ico",
     "slug": "find-and-use-an-api-management-portal-dev",
