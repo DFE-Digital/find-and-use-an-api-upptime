@@ -52,7 +52,7 @@
     "timeMonth": 148,
     "timeYear": 148,
     "dailyMinutesDown": {
-      "2025-04-23": 217
+      "2025-04-23": 245
     }
   },
   {
@@ -60,17 +60,17 @@
     "url": "https://api.education.gov.uk/example/getInformation",
     "icon": "https://icons.duckduckgo.com/ip3/api.education.gov.uk.ico",
     "slug": "demo-workspace-api-prod",
-    "status": "down",
-    "uptime": "71.49%",
-    "uptimeDay": "71.49%",
-    "uptimeWeek": "71.49%",
-    "uptimeMonth": "71.49%",
-    "uptimeYear": "71.49%",
-    "time": 89,
-    "timeDay": 89,
-    "timeWeek": 89,
-    "timeMonth": 89,
-    "timeYear": 89,
+    "status": "up",
+    "uptime": "75.63%",
+    "uptimeDay": "75.63%",
+    "uptimeWeek": "75.63%",
+    "uptimeMonth": "75.63%",
+    "uptimeYear": "75.63%",
+    "time": 315,
+    "timeDay": 315,
+    "timeWeek": 315,
+    "timeMonth": 315,
+    "timeYear": 315,
     "dailyMinutesDown": {
       "2025-04-23": 50
     }
@@ -128,7 +128,7 @@
     "timeMonth": 125,
     "timeYear": 125,
     "dailyMinutesDown": {
-      "2025-04-23": 217
+      "2025-04-23": 245
     }
   },
   {
@@ -136,17 +136,17 @@
     "url": "https://pp-api.education.gov.uk/example/getInformation",
     "icon": "https://icons.duckduckgo.com/ip3/pp-api.education.gov.uk.ico",
     "slug": "demo-workspace-api-pre-prod",
-    "status": "down",
-    "uptime": "72.25%",
-    "uptimeDay": "72.25%",
-    "uptimeWeek": "72.25%",
-    "uptimeMonth": "72.25%",
-    "uptimeYear": "72.25%",
-    "time": 116,
-    "timeDay": 116,
-    "timeWeek": 116,
-    "timeMonth": 116,
-    "timeYear": 116,
+    "status": "up",
+    "uptime": "76.27%",
+    "uptimeDay": "76.27%",
+    "uptimeWeek": "76.27%",
+    "uptimeMonth": "76.27%",
+    "uptimeYear": "76.27%",
+    "time": 240,
+    "timeDay": 240,
+    "timeWeek": 240,
+    "timeMonth": 240,
+    "timeYear": 240,
     "dailyMinutesDown": {
       "2025-04-23": 49
     }
@@ -204,7 +204,7 @@
     "timeMonth": 138,
     "timeYear": 138,
     "dailyMinutesDown": {
-      "2025-04-23": 215
+      "2025-04-23": 244
     }
   },
   {
@@ -212,17 +212,17 @@
     "url": "https://test-api.education.gov.uk/example/getInformation",
     "icon": "https://icons.duckduckgo.com/ip3/test-api.education.gov.uk.ico",
     "slug": "demo-workspace-api-test",
-    "status": "down",
-    "uptime": "72.63%",
-    "uptimeDay": "72.63%",
-    "uptimeWeek": "72.63%",
-    "uptimeMonth": "72.63%",
-    "uptimeYear": "72.63%",
-    "time": 87,
-    "timeDay": 87,
-    "timeWeek": 87,
-    "timeMonth": 87,
-    "timeYear": 87,
+    "status": "up",
+    "uptime": "76.60%",
+    "uptimeDay": "76.60%",
+    "uptimeWeek": "76.60%",
+    "uptimeMonth": "76.60%",
+    "uptimeYear": "76.60%",
+    "time": 220,
+    "timeDay": 220,
+    "timeWeek": 220,
+    "timeMonth": 220,
+    "timeYear": 220,
     "dailyMinutesDown": {
       "2025-04-23": 48
     }
@@ -280,7 +280,7 @@
     "timeMonth": 141,
     "timeYear": 141,
     "dailyMinutesDown": {
-      "2025-04-23": 799,
+      "2025-04-23": 828,
       "2025-04-22": 725
     }
   },
@@ -289,17 +289,17 @@
     "url": "https://dev-api.education.gov.uk/example/getInformation?subscription-key=$DEMO_WORKSPACE_API_KEY_DEV",
     "icon": "https://icons.duckduckgo.com/ip3/dev-api.education.gov.uk.ico",
     "slug": "demo-workspace-api-dev",
-    "status": "down",
-    "uptime": "72.96%",
-    "uptimeDay": "72.96%",
-    "uptimeWeek": "72.96%",
-    "uptimeMonth": "72.96%",
-    "uptimeYear": "72.96%",
-    "time": 87,
-    "timeDay": 87,
-    "timeWeek": 87,
-    "timeMonth": 87,
-    "timeYear": 87,
+    "status": "up",
+    "uptime": "76.88%",
+    "uptimeDay": "76.88%",
+    "uptimeWeek": "76.88%",
+    "uptimeMonth": "76.88%",
+    "uptimeYear": "76.88%",
+    "time": 218,
+    "timeDay": 218,
+    "timeWeek": 218,
+    "timeMonth": 218,
+    "timeYear": 218,
     "dailyMinutesDown": {
       "2025-04-23": 47
     }
