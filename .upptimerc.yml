@@ -54,12 +54,9 @@ sites:
     method: GET
     headers:
       - "Authorization: Bearer ${{ secrets.MANAGEMENT_DEV_API_KEY }}"
-
   - name: Demo Workspace API - DEV
-    url: https://dev-api.education.gov.uk/example/getInformation
+    url: https://dev-api.education.gov.uk/example/getInformation?subscription-key=$DEMO_WORKSPACE_API_KEY_DEV
     method: GET
-    headers:
-      - "subscription-key: $DEMO_WORKSPACE_API_KEY_DEV"
       
 
 status-website:
