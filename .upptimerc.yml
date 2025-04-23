@@ -8,52 +8,64 @@ sites:
     url: https://beta-find-and-use-an-api.education.gov.uk
   - name: Management Portal - PROD
     url: https://apimanagement.education.gov.uk
-  - name: Management Function App - PROD
-    url: https://s197p01-fauapi-management-func.azurewebsites.net
-  - name: Management API - DEV
+  - name: Management API - PROD
     url: https://apimanagement.education.gov.uk/api/tasks/apis
     method: GET
     headers:
       - "Authorization: Bearer $MANAGEMENT_PROD_API_KEY"
+  - name: Demo Workspace API - PROD
+    url: https://apimanagement.education.gov.uk/api/tasks/apis
+    method: GET
+    headeders:
+      - "subscription-key: $DEMO_WORKSPACE_API_KEY_PROD"
 
 # Pre-production environment links
   - name: Consumption Portal - PRE-PROD
     url: https://pp-find-and-use-an-api.education.gov.uk
   - name: Management Portal - PRE-PROD
     url: https://pp-apimanagement.education.gov.uk
-  - name: Management Function App - PRE-PROD
-    url: https://s197t02-fauapi-management-func-test.azurewebsites.net
-  - name: Management API - DEV
+  - name: Management API - PRE-PROD
     url: https://pp-apimanagement.education.gov.uk/api/tasks/apis
     method: GET
     headers:
       - "Authorization: Bearer $MANAGEMENT_PREPROD_API_KEY"
+  - name: Demo Workspace API - Pre-PROD
+    url: https://dev-apimanagement.education.gov.uk/api/tasks/apis
+    method: GET
+    headeders:
+      - "subscription-key: $DEMO_WORKSPACE_API_KEY_PREPROD"
 
 # Test environment links
   - name: Consumption Portal - TEST
     url: https://test-find-and-use-an-api.education.gov.uk
   - name: Management Portal - TEST
     url: https://test-apimanagement.education.gov.uk
-  - name: Management Function App - TEST
-    url: https://s197t01-fauapi-management-func.azurewebsites.net
-  - name: Management API - DEV
+  - name: Management API - TEST
     url: https://test-apimanagement.education.gov.uk/api/tasks/apis
     method: GET
     headers:
       - "Authorization: Bearer $MANAGEMENT_TEST_API_KEY"
+  - name: Demo Workspace API - TEST
+    url: https://dev-apimanagement.education.gov.uk/api/tasks/apis
+    method: GET
+    headeders:
+      - "subscription-key: $DEMO_WORKSPACE_API_KEY_TEST"
 
 # Development environment links
   - name: Consumption Portal - DEV
     url: https://dev-find-and-use-an-api.education.gov.uk
   - name: Management Portal - DEV
     url: https://dev-apimanagement.education.gov.uk
-  - name: Management Function App - DEV
-    url: https://s197d01-fauapi-management-func.azurewebsites.net
   - name: Management API - DEV
     url: https://dev-apimanagement.education.gov.uk/api/tasks/apis
     method: GET
     headers:
       - "Authorization: Bearer $MANAGEMENT_DEV_API_KEY"
+  - name: Demo Workspace API - DEV
+    url: https://dev-apimanagement.education.gov.uk/api/tasks/apis
+    method: GET
+    headeders:
+      - "subscription-key: $DEMO_WORKSPACE_API_KEY_DEV"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
