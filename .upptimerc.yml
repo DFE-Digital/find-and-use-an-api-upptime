@@ -53,12 +53,14 @@ sites:
     url: https://dev-apimanagement.education.gov.uk/api/tasks/apis
     method: GET
     headers:
-      - "Authorization: Bearer $MANAGEMENT_DEV_API_KEY"
+      - "Authorization: Bearer ${{ secrets.MANAGEMENT_DEV_API_KEY }}"
+
   - name: Demo Workspace API - DEV
     url: https://dev-api.education.gov.uk/example/getInformation
     method: GET
     headers:
       - "subscription-key: $DEMO_WORKSPACE_API_KEY_DEV"
+      
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
