@@ -30,7 +30,7 @@ sites:
     headers:
       - "Authorization: Bearer $MANAGEMENT_PREPROD_API_KEY"
   - name: Demo Workspace API - Pre-PROD
-    url: https://dev-apimanagement.education.gov.uk/example/getInformation
+    url: https://pp-apimanagement.education.gov.uk/example/getInformation
     method: GET
     headeders:
       - "subscription-key: $DEMO_WORKSPACE_API_KEY_PREPROD"
@@ -46,7 +46,7 @@ sites:
     headers:
       - "Authorization: Bearer $MANAGEMENT_TEST_API_KEY"
   - name: Demo Workspace API - TEST
-    url: https://dev-apimanagement.education.gov.uk/example/getInformation
+    url: https://test-apimanagement.education.gov.uk/example/getInformation
     method: GET
     headeders:
       - "subscription-key: $DEMO_WORKSPACE_API_KEY_TEST"
