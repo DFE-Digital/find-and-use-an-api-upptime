@@ -2,6 +2,8 @@
 owner: DfE-Digital # Your GitHub organization or username, where this repository lives
 repo: find-and-use-an-api-upptime # The name of this repository
 
+DEMO_WORKSPACE_API_KEY_DEV: ${{ secrets.DEMO_WORKSPACE_API_KEY_DEV }}
+
 sites:
   - name: Consumption Portal - PROD
     url: https://beta-find-and-use-an-api.education.gov.uk
@@ -55,8 +57,10 @@ sites:
     headers:
       - "Authorization: Bearer ${{ secrets.MANAGEMENT_DEV_API_KEY }}"
   - name: Demo Workspace API - DEV
-    url: https://dev-api.education.gov.uk/example/getInformation?subscription-key=$DEMO_WORKSPACE_API_KEY_DEV
+    url: https://dev-api.education.gov.uk/example/getInformation
     method: GET
+    headers:
+      - "subscription-key: $DEMO_WORKSPACE_API_KEY_DEV"
       
 
 status-website:
