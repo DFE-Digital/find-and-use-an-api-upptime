@@ -1,7 +1,7 @@
-url: https://pp-apimanagement.education.gov.uk/example/getInformation
-status: down
-code: 404
-responseTime: 116
-lastUpdated: 2025-04-23T10:54:36.027Z
+url: https://pp-api.education.gov.uk/example/getInformation
+status: up
+code: 200
+responseTime: 364
+lastUpdated: 2025-04-23T14:18:57.774Z
 startTime: 2025-04-23T10:54:35.716Z
 generator: Upptime <https://github.com/upptime/upptime>
