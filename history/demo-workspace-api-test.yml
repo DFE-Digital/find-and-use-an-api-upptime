@@ -1,7 +1,7 @@
 url: https://test-api.education.gov.uk/example/getInformation
 status: up
 code: 200
-responseTime: 500
-lastUpdated: 2025-04-23T23:02:46.504Z
+responseTime: 405
+lastUpdated: 2025-04-24T23:03:01.143Z
 startTime: 2025-04-23T10:54:38.224Z
 generator: Upptime <https://github.com/upptime/upptime>
