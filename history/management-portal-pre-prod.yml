@@ -1,7 +1,7 @@
 url: https://pp-apimanagement.education.gov.uk
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-04-24T19:24:32.154Z
+status: up
+code: 200
+responseTime: 779
+lastUpdated: 2025-04-24T19:31:54.365Z
 startTime: 2025-01-21T13:37:25.029Z
 generator: Upptime <https://github.com/upptime/upptime>
