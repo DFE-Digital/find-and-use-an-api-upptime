@@ -5,6 +5,7 @@ repo: find-and-use-an-api-upptime # The name of this repository
 sites:
   - name: Consumption Portal - PROD
     url: https://beta-find-and-use-an-api.education.gov.uk
+    __dangerous__insecure: true
   - name: Management Portal - PROD
     url: https://apimanagement.education.gov.uk
   - name: Management API - PROD
