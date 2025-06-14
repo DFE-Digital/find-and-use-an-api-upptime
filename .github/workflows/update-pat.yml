@@ -1,0 +1,112 @@
+name: Inject GitHub PAT
+
+on:
+  schedule:
+    - cron: '*/55 * * * *'  # Every 55 minutes
+  workflow_dispatch:
+
+jobs:
+  refresh-gh-pat:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Install required dependencies
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libsodium-dev
+          npm install jsonwebtoken @octokit/rest libsodium-wrappers
+
+      # Generate GitHub App token
+      - name: Generate GitHub App token
+        id: generate_token
+        uses: actions/github-script@v5
+        env:
+          APP_ID: ${{ secrets.APP_ID }}
+          INSTALLATION_ID: ${{ secrets.INSTALLATION_ID }}
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        with:
+          script: |
+            const jwt = require('jsonwebtoken');
+            const { Octokit } = require("@octokit/rest");
+
+            const now = Math.floor(Date.now() / 1000);
+            const payload = {
+              iat: now,
+              exp: now + 540,
+              iss: process.env.APP_ID
+            };
+
+            const token = jwt.sign(payload, process.env.PRIVATE_KEY, { algorithm: 'RS256' });
+            const octokit = new Octokit({ auth: token });
+
+            const { data } = await octokit.request('POST /app/installations/{installation_id}/access_tokens', {
+              installation_id: process.env.INSTALLATION_ID
+            });
+
+            return { token: data.token };
+
+      # Get repository public key
+      - name: Get repository public key
+        id: public_key
+        uses: actions/github-script@v5
+        env:
+          GH_APP_TOKEN: ${{ steps.generate_token.outputs.token }}
+        with:
+          script: |
+            const { Octokit } = require("@octokit/rest");
+            const octokit = new Octokit({ auth: process.env.GH_APP_TOKEN });
+
+            const { data } = await octokit.actions.getRepoPublicKey({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              headers: { 'X-GitHub-Api-Version': '2022-11-28' }
+            });
+
+            return { key: data.key, key_id: data.key_id };
+
+      # Encrypt the token using the public key
+      - name: Encrypt token
+        id: encrypt_token
+        uses: actions/github-script@v5
+        env:
+          TOKEN: ${{ steps.generate_token.outputs.token }}
+          PUBLIC_KEY: ${{ steps.public_key.outputs.key }}
+        with:
+          script: |
+            const sodium = require('libsodium-wrappers');
+            await sodium.ready;
+
+            const key = sodium.from_base64(process.env.PUBLIC_KEY, sodium.base64_variants.ORIGINAL);
+            const messageBytes = sodium.from_string(process.env.TOKEN);
+            const encryptedBytes = sodium.crypto_box_seal(messageBytes, key);
+            const encrypted = sodium.to_base64(encryptedBytes, sodium.base64_variants.ORIGINAL);
+
+            return { encrypted_value: encrypted };
+
+      # Update the GH_PAT secret in the repository
+      - name: Update GH_PAT secret
+        uses: actions/github-script@v5
+        env:
+          GH_APP_TOKEN: ${{ steps.generate_token.outputs.token }}
+          ENCRYPTED_VALUE: ${{ steps.encrypt_token.outputs.encrypted_value }}
+          KEY_ID: ${{ steps.public_key.outputs.key_id }}
+        with:
+          script: |
+            const { Octokit } = require("@octokit/rest");
+            const octokit = new Octokit({ auth: process.env.GH_APP_TOKEN });
+
+            await octokit.actions.createOrUpdateRepoSecret({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              secret_name: 'GH_PAT',
+              encrypted_value: process.env.ENCRYPTED_VALUE,
+              key_id: process.env.KEY_ID
+            });
