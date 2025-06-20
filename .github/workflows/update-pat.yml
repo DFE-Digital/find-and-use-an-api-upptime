@@ -53,6 +53,13 @@ jobs:
 
             return { token: data.token };
 
+      # Debug GitHub app token
+      - name: Debug token output
+        run: |
+          echo "Token length: $(echo ${GH_APP_TOKEN} | wc -c)"
+        env:
+          GH_APP_TOKEN: ${{ steps.generate_token.outputs.token }}
+
       # Get repository public key
       - name: Get repository public key
         id: public_key
