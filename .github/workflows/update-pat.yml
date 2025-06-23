@@ -1,9 +1,7 @@
 name: Inject GitHub PAT
 
 on:
-  schedule:
-    - cron: '*/55 * * * *'  # Every 55 minutes
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   refresh-gh-pat:
