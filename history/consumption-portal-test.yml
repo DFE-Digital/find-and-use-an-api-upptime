@@ -1,7 +1,7 @@
 url: https://test-find-and-use-an-api.education.gov.uk
-status: up
-code: 200
-responseTime: 684
-lastUpdated: 2025-06-22T23:02:51.979Z
+status: down
+code: 503
+responseTime: 1390
+lastUpdated: 2025-12-09T15:38:54.896Z
 startTime: 2025-01-21T13:37:25.959Z
 generator: Upptime <https://github.com/upptime/upptime>
