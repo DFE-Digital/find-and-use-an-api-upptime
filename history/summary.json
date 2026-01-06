@@ -204,19 +204,19 @@
     "url": "https://test-apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/test-apimanagement.education.gov.uk.ico",
     "slug": "management-portal-test",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.02%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
-    "time": 664,
-    "timeDay": 504,
-    "timeWeek": 504,
-    "timeMonth": 504,
-    "timeYear": 664,
+    "time": 662,
+    "timeDay": 543,
+    "timeWeek": 543,
+    "timeMonth": 543,
+    "timeYear": 662,
     "dailyMinutesDown": {
-      "2026-01-06": 0
+      "2026-01-06": 14
     }
   },
   {
