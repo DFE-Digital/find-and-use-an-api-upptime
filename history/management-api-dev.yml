@@ -1,7 +1,7 @@
 url: https://dev-apimanagement.education.gov.uk/api/tasks/apis
-status: up
-code: 200
-responseTime: 121
-lastUpdated: 2025-06-22T23:02:55.340Z
+status: down
+code: 500
+responseTime: 10321
+lastUpdated: 2026-03-06T06:00:59.318Z
 startTime: 2025-04-23T10:54:40.071Z
 generator: Upptime <https://github.com/upptime/upptime>
