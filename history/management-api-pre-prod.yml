@@ -1,7 +1,7 @@
 url: https://pp-apimanagement.education.gov.uk/api/tasks/apis
-status: down
-code: 502
-responseTime: 82
-lastUpdated: 2026-03-06T21:46:46.803Z
+status: up
+code: 200
+responseTime: 716
+lastUpdated: 2026-03-06T21:58:02.259Z
 startTime: 2025-04-23T10:54:35.067Z
 generator: Upptime <https://github.com/upptime/upptime>
