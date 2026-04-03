@@ -186,19 +186,19 @@
     "url": "https://test-find-and-use-an-api.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/test-find-and-use-an-api.education.gov.uk.ico",
     "slug": "consumption-portal-test",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.89%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 681,
-    "timeDay": 1859,
-    "timeWeek": 1859,
-    "timeMonth": 1859,
+    "timeDay": 1271,
+    "timeWeek": 1271,
+    "timeMonth": 1271,
     "timeYear": 681,
     "dailyMinutesDown": {
-      "2026-04-03": 0
+      "2026-04-03": 16
     }
   },
   {
