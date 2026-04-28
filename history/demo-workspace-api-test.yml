@@ -1,7 +1,7 @@
 url: https://test-api.education.gov.uk/example/getInformation
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-04-28T12:17:59.061Z
+status: up
+code: 200
+responseTime: 979
+lastUpdated: 2026-04-28T12:57:33.838Z
 startTime: 2025-04-23T10:54:38.224Z
 generator: Upptime <https://github.com/upptime/upptime>
