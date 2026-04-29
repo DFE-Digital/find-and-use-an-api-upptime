@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/beta-find-and-use-an-api.education.gov.uk.ico",
     "slug": "consumption-portal-prod",
     "status": "up",
-    "uptime": "93.96%",
+    "uptime": "93.97%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.88%",
-    "uptimeYear": "93.47%",
+    "uptimeYear": "93.72%",
     "time": 671,
     "timeDay": 0,
     "timeWeek": 0,
@@ -39,8 +39,7 @@
       "2025-05-03": 1440,
       "2025-05-02": 1440,
       "2025-05-01": 1440,
-      "2025-04-30": 1440,
-      "2025-04-29": 1440
+      "2025-04-30": 1440
     }
   },
   {
@@ -48,9 +47,9 @@
     "url": "https://apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/apimanagement.education.gov.uk.ico",
     "slug": "management-portal-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.88%",
     "uptimeYear": "99.99%",
@@ -58,8 +57,9 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 459,
-    "timeYear": 696,
+    "timeYear": 699,
     "dailyMinutesDown": {
+      "2026-04-29": 0,
       "2026-04-17": 54
     }
   },
@@ -68,9 +68,9 @@
     "url": "https://apimanagement.education.gov.uk/api/tasks/apis",
     "icon": "https://icons.duckduckgo.com/ip3/apimanagement.education.gov.uk.ico",
     "slug": "management-api-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.88%",
     "uptimeYear": "99.99%",
@@ -80,6 +80,7 @@
     "timeMonth": 211,
     "timeYear": 184,
     "dailyMinutesDown": {
+      "2026-04-29": 0,
       "2026-04-17": 54
     }
   },
@@ -88,9 +89,9 @@
     "url": "https://api.education.gov.uk/example/getInformation",
     "icon": "https://icons.duckduckgo.com/ip3/api.education.gov.uk.ico",
     "slug": "demo-workspace-api-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -98,8 +99,10 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 541,
-    "dailyMinutesDown": {}
+    "timeYear": 543,
+    "dailyMinutesDown": {
+      "2026-04-29": 0
+    }
   },
   {
     "name": "Consumption Portal - PRE-PROD",
@@ -116,7 +119,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 725,
+    "timeYear": 729,
     "dailyMinutesDown": {}
   },
   {
@@ -134,7 +137,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 640,
+    "timeYear": 643,
     "dailyMinutesDown": {}
   },
   {
@@ -152,7 +155,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 235,
+    "timeYear": 237,
     "dailyMinutesDown": {}
   },
   {
@@ -170,7 +173,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 425,
+    "timeYear": 426,
     "dailyMinutesDown": {}
   },
   {
@@ -188,7 +191,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 1271,
-    "timeYear": 682,
+    "timeYear": 686,
     "dailyMinutesDown": {
       "2026-04-03": 16
     }
@@ -208,7 +211,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 657,
+    "timeYear": 660,
     "dailyMinutesDown": {}
   },
   {
@@ -226,7 +229,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 180,
+    "timeYear": 181,
     "dailyMinutesDown": {}
   },
   {
@@ -244,7 +247,7 @@
     "timeDay": 979,
     "timeWeek": 979,
     "timeMonth": 986,
-    "timeYear": 495,
+    "timeYear": 498,
     "dailyMinutesDown": {
       "2026-04-28": 40,
       "2026-04-14": 39,
@@ -293,7 +296,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 914,
+    "timeYear": 922,
     "dailyMinutesDown": {
       "2026-03-06": 43,
       "2025-06-19": 27
@@ -314,7 +317,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 463,
+    "timeYear": 469,
     "dailyMinutesDown": {
       "2026-03-06": 41,
       "2025-06-19": 28
@@ -326,7 +329,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/dev-api.education.gov.uk.ico",
     "slug": "demo-workspace-api-dev",
     "status": "up",
-    "uptime": "97.20%",
+    "uptime": "97.21%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.91%",
@@ -335,7 +338,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 573,
-    "timeYear": 522,
+    "timeYear": 524,
     "dailyMinutesDown": {
       "2026-04-14": 39,
       "2026-03-18": 31,
