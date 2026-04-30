@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/beta-find-and-use-an-api.education.gov.uk.ico",
     "slug": "consumption-portal-prod",
     "status": "up",
-    "uptime": "93.97%",
+    "uptime": "93.99%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.88%",
-    "uptimeYear": "93.73%",
+    "uptimeYear": "94.05%",
     "time": 671,
     "timeDay": 0,
     "timeWeek": 0,
@@ -38,8 +38,7 @@
       "2025-05-04": 1440,
       "2025-05-03": 1440,
       "2025-05-02": 1440,
-      "2025-05-01": 1440,
-      "2025-04-30": 1440
+      "2025-05-01": 1440
     }
   },
   {
@@ -47,18 +46,19 @@
     "url": "https://apimanagement.education.gov.uk",
     "icon": "https://icons.duckduckgo.com/ip3/apimanagement.education.gov.uk.ico",
     "slug": "management-portal-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "97.41%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "99.63%",
     "uptimeMonth": "99.79%",
     "uptimeYear": "99.98%",
     "time": 690,
-    "timeDay": 811,
+    "timeDay": 0,
     "timeWeek": 811,
     "timeMonth": 576,
-    "timeYear": 701,
+    "timeYear": 703,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-29": 37,
       "2026-04-17": 54
     }
@@ -68,18 +68,19 @@
     "url": "https://apimanagement.education.gov.uk/api/tasks/apis",
     "icon": "https://icons.duckduckgo.com/ip3/apimanagement.education.gov.uk.ico",
     "slug": "management-api-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "97.41%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "99.63%",
     "uptimeMonth": "99.79%",
     "uptimeYear": "99.98%",
     "time": 186,
-    "timeDay": 216,
+    "timeDay": 0,
     "timeWeek": 216,
     "timeMonth": 212,
-    "timeYear": 184,
+    "timeYear": 185,
     "dailyMinutesDown": {
+      "2026-04-30": 0,
       "2026-04-29": 37,
       "2026-04-17": 54
     }
@@ -91,15 +92,15 @@
     "slug": "demo-workspace-api-prod",
     "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "97.40%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.63%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.99%",
     "time": 532,
-    "timeDay": 546,
+    "timeDay": 0,
     "timeWeek": 546,
     "timeMonth": 546,
-    "timeYear": 543,
+    "timeYear": 546,
     "dailyMinutesDown": {
       "2026-04-29": 37
     }
@@ -119,7 +120,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 729,
+    "timeYear": 732,
     "dailyMinutesDown": {}
   },
   {
@@ -137,7 +138,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 643,
+    "timeYear": 644,
     "dailyMinutesDown": {}
   },
   {
@@ -155,7 +156,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 237,
+    "timeYear": 239,
     "dailyMinutesDown": {}
   },
   {
@@ -191,7 +192,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 1271,
-    "timeYear": 686,
+    "timeYear": 688,
     "dailyMinutesDown": {
       "2026-04-03": 16
     }
@@ -211,7 +212,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 660,
+    "timeYear": 661,
     "dailyMinutesDown": {}
   },
   {
@@ -229,7 +230,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 181,
+    "timeYear": 182,
     "dailyMinutesDown": {}
   },
   {
@@ -239,15 +240,15 @@
     "slug": "demo-workspace-api-test",
     "status": "up",
     "uptime": "99.94%",
-    "uptimeDay": "97.25%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.61%",
     "uptimeMonth": "99.82%",
-    "uptimeYear": "99.94%",
+    "uptimeYear": "99.95%",
     "time": 483,
-    "timeDay": 979,
+    "timeDay": 0,
     "timeWeek": 979,
     "timeMonth": 986,
-    "timeYear": 498,
+    "timeYear": 492,
     "dailyMinutesDown": {
       "2026-04-28": 40,
       "2026-04-14": 39,
@@ -256,8 +257,7 @@
       "2026-02-10": 27,
       "2026-01-26": 20,
       "2025-10-31": 56,
-      "2025-09-23": 25,
-      "2025-04-30": 37
+      "2025-09-23": 25
     }
   },
   {
@@ -275,7 +275,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 970,
+    "timeYear": 977,
     "dailyMinutesDown": {
       "2026-03-06": 45,
       "2025-06-19": 27
@@ -296,7 +296,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 922,
+    "timeYear": 929,
     "dailyMinutesDown": {
       "2026-03-06": 43,
       "2025-06-19": 27
@@ -317,7 +317,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 469,
+    "timeYear": 475,
     "dailyMinutesDown": {
       "2026-03-06": 41,
       "2025-06-19": 28
@@ -329,16 +329,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/dev-api.education.gov.uk.ico",
     "slug": "demo-workspace-api-dev",
     "status": "up",
-    "uptime": "97.21%",
+    "uptime": "97.22%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.91%",
-    "uptimeYear": "97.17%",
+    "uptimeYear": "97.18%",
     "time": 507,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 573,
-    "timeYear": 524,
+    "timeYear": 513,
     "dailyMinutesDown": {
       "2026-04-14": 39,
       "2026-03-18": 31,
@@ -358,8 +358,7 @@
       "2026-01-26": 750,
       "2025-10-31": 43,
       "2025-09-23": 43,
-      "2025-05-31": 40,
-      "2025-04-30": 20
+      "2025-05-31": 40
     }
   }
 ]
