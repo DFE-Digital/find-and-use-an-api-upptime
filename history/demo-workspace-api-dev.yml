@@ -1,7 +1,7 @@
 url: https://dev-api.education.gov.uk/example/getInformation
-status: up
-code: 200
-responseTime: 1181
-lastUpdated: 2026-04-30T20:44:01.592Z
+status: down
+code: 502
+responseTime: 603
+lastUpdated: 2026-05-01T07:01:53.346Z
 startTime: 2025-04-23T10:54:40.728Z
 generator: Upptime <https://github.com/upptime/upptime>
